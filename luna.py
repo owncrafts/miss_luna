@@ -74,7 +74,7 @@ async def start(_, message):
 async def start(_, message):
     await luna.send_chat_action(message.chat.id, "typing")
     await sleep(2)
-    await message.reply_text("Hello, I am Emirichu. A User-friendly Chatbot. You can spend time on me & You can be my friend. My father is @dhruv_lathia, A person who coded me.")  
+    await message.reply_text("Hello, I am Luna. A User-friendly Chatbot. You can spend time on me & You can be my friend. My boyfriend is @dhruv_lathia, A person who coded me.")  
 
 
 
